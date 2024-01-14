@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin: 2px auto;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  color: rgb(26, 216, 153);
+  font-size: larger;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+  font-size: 1.3rem;
+  color: rgb(9, 37, 148);
+}
+
+form input{
+  padding: 0.6rem 0.75rem;
+  width: 28vw;
+  /* color: white; */
+  background-color: rgba(184, 178, 178, 0.884);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  /* outline: none; */
+}
+
+form input[type= "submit"]{
+  background-color: rgb(46, 205, 46);
+  width: 40%;
+  padding: 0.8rem 1rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-size: 18px;
+
+}
+
+.err{
+  color: rgb(255, 0, 0);
+  font-size: 1.1rem;
+}
+
+.success{
+  background-color: rgb(73, 73, 176);
+  color: white;
+  font-style: bold;
+  /* width: 100%; */
+}
